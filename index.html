@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas com Quadrado Azul e Fundo</title>
+    <style>
+        body{
+            background-color: rgb(17, 22, 95);
+            color: white;
+        }
+        canvas {
+            position: relative;
+            margin: auto;
+            display: flex;
+        }
+        #placar {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="700" height="600"></canvas>
+    <div id="placar">Pontuação: <span id="pontuacao">0</span></div>
+    <img id="fundo" src="img/fundo2.jpg" style="display:none;">
+    <img id="cblack" src="img/cblack-removebg-preview.png" height="50px" width="50px" style="display:none;">
+    <img id="cred" src="img/cred.png" height="50px" width="50px" style="display:none;">
+    <script src="canva.js"></script>
+</body>
+</html>
